@@ -1,0 +1,26 @@
+main .container div {
+    color: white;
+    background-color: #303030;
+    margin: 10px 0;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+main .container div h2 {
+    font-size: 2rem;
+    font-family: Arial;
+}
+
+main .container div p {
+    font-size: 1rem;
+    font-family: Calibri;
+}
+
+.PYPCredits {
+    color: #858585;
+}
+
+.PYPCredits a {
+    color: #b6b6b6;
+    text-decoration: none;
+}
