@@ -19,7 +19,7 @@
 }
 
 ::-webkit-scrollbar {
-    background-color: #424242;
+    background-color: #111111;
 }
 
 ::selection {
@@ -80,7 +80,7 @@ header .container nav a {
 
 footer {
     background-color: #111111;
-    height: 100px;
+    height: auto;
     text-align: center;
     padding: 15px;
 }
@@ -107,6 +107,7 @@ footer p {
     color: #5d5d5d;
     font-family: Arial;
     font-size: 1em;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 1024px){

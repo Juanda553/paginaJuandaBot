@@ -65,7 +65,7 @@ h4 {
     width: 16px;
 }
 
-@media screen and (min-width: 371px) {
+@media screen and (max-width: 371px) {
     .cardItem {
         width: 132px;
     }
