@@ -64,3 +64,13 @@ h4 {
 .pavos-img {
     width: 16px;
 }
+
+@media screen and (min-width: 371px) {
+    .cardItem {
+        width: 132px;
+    }
+
+    .cardItem h2 {
+        font-size: 0.7rem;
+    }
+}
