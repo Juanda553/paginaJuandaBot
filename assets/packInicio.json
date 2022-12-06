@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ausencia",
+        "rarity": "rare",
+        "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_296_athena_commando_m_darkpit/icon.png"
+    },
+    {
+        "name": "Enfurecimiento entintado",
+        "rarity": "rare",
+        "img": "https://fortnite-api.com/images/cosmetics/br/bid_919_darkpitblue/icon.png"
+    },
+    {
+        "name": "Hoja abismal",
+        "rarity": "rare",
+        "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_711_darkpitmale/icon.png"
+    },
+    {
+        "name": "600 paVos",
+        "rarity": "legendary",
+        "img": "https://pbs.twimg.com/media/D6UwAlXXoAAmC_l.png"
+    }
+]

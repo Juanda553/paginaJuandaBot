@@ -1,0 +1,58 @@
+#menuBar {
+    display: none;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 8px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #111111e0;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a {
+    display: block;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    border-bottom: 1px solid #ffffffe6;
+    font-size: 1rem;
+}
+
+.menu a:hover {
+    background-color: #232323e0;
+}
+
+#menuBar:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+@media (min-width:780px){
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+
+    .menu a {
+        border: none;
+    }
+
+    header label {
+        display: none;
+    }
+}
